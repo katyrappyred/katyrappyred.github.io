@@ -1,2 +1,0 @@
-# katyrappyred.github.io
-### Привет!
