@@ -17,6 +17,11 @@
     animation-timing-function: linear;  
   }
 /* Мои слова */
+.all {
+  opacity: 0;
+  position: absolute;
+  z-index: 100;
+}
 .word {
   opacity: 0;
   position: absolute;
@@ -51,43 +56,92 @@
 }
 .word1::after {
   content: url(./arrow.png);
-  filter: grayscale(0%);
 }
 .word2 {
   top:23%;
   left: calc(52% - 10%);
 }
+.word2::after {
+  content: url(./milota1.png);
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
 .word3 {
   top: 25%;
   left: calc(52%)
 }
+.word3::after {
+  content: url(./ыуквусрлщ.png);
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
 .word4 {
-  top: 27%;
+  top: 17%;
   left: calc(52% - 6%);
 }
+.word4::after {
+  position: relative;
+  top: 25px;
+  left: 10px;
+}
 .word5 {
-  top: 22%;
+  top: 6%;
   left: calc(40%);
+}
+.word5::after {
+  content: url(./Diggi.png);
+  position: relative;
+  top: 25px;
+  left: 40px;
 }
 .word6 {
   top: 20%;
   left: calc(58%);
 }
+.word6::after {
+  content: url(./ыьшду.png);
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
 .word7 {
-  top: 25%;
+  top: 7%;
   left: calc(30%);
+}
+.word7::after {
+  content: url(./cat-oret.png);
+  position: relative;
+  top: 25px;
+  left: 40px;
 }
 .word8 {
   top: 23%;
-  left: calc(67%);
+  left: 51%;
+}
+.word8::after {
+  position: relative;
+  top: 25px;
+  left: 40px;
 }
 .word9 {
   top: 19%;
   left: calc(44%);
 }
+.word9::after {
+  content: url(./zelenoe.png);
+  left: 25px;
+}
 .word10 {
   top: 20%;
   left: calc(45%);
+}
+.word10::after {
+  content: url(./128.png);
+  position: relative;
+  top: 25px;
+  left: 35px;
 }
 .word11 {
   top: 22%;

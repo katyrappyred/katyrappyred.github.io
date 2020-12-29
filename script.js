@@ -150,7 +150,16 @@ let i = 0;
 
 function addClass() {
     let temp = document.querySelector(arr[i]);
-    
+    if (temp.className === 'word word13') {
+      document.querySelector('.all1').classList.add('move');
+      document.querySelector('.all2').classList.add('move');
+      document.querySelector('.all3').classList.add('move');
+      document.querySelector('.all4').classList.add('move');
+      document.querySelector('.all5').classList.add('move');
+      document.querySelector('.all6').classList.add('move');
+      document.querySelector('.all7').classList.add('move');
+      document.querySelector('.all8').classList.add('move');
+    }
     temp.classList.add('move');
     i++;
 }
