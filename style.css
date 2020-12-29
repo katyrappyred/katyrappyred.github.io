@@ -39,11 +39,25 @@
 .move2 {
   animation: moveWord1 10s linear normal forwards;
 }
+.move3 {
+  animation: moveWord2 30s linear normal forwards;
+}
 @keyframes moveWord1 {
   0% {
       opacity: 0;
   }
   50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+@keyframes moveWord1 {
+  0% {
+      opacity: 0;
+  }
+  10% {
       opacity: 1;
   }
   100% {

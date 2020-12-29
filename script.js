@@ -170,6 +170,12 @@ function addClass2() {
   temp.classList.add('move2');
   i++;
 }
+function addClass3() {
+  let temp = document.querySelector(arr[i]);
+  
+  temp.classList.add('move3');
+  i++;
+}
 
 setTimeout(addClass, 3000);
 setTimeout(addClass, 9000);
@@ -184,5 +190,5 @@ setTimeout(addClass, 49000);
 setTimeout(addClass2, 54000);
 setTimeout(addClass, 59000);
 setTimeout(addClass, 64000);
-setTimeout(addClass, 69000);
+setTimeout(addClass3, 69000);
 
