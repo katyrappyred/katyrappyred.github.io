@@ -31,10 +31,6 @@
   animation: moveWord1 6s linear normal both;
   
 }
-.img__foto {
-  width: 150px;
-  height: 150px;
-}
 .move2 {
   animation: moveWord1 10s linear normal forwards;
 }
@@ -49,9 +45,17 @@
       opacity: 0;
   }
 }
+.word1 {
+  top: 8%;
+  left: 77%;
+}
+.word1::after {
+  content: url(./arrow.png);
+  filter: grayscale(0%);
+}
 .word2 {
   top:23%;
-  left: 50px;
+  left: calc(52% - 10%);
 }
 .word3 {
   top: 25%;
@@ -97,9 +101,14 @@
   top: 20%;
   left: calc(52% - 10%);
 }
-.word13 {
+.word14 {
   top: 28%;
   left: calc(52% - 10%);
+}
+.word14::after {
+  content: url(./we.png);
+  position: relative;
+  top: 25px;
 }
 
 /* Background gradients
