@@ -152,7 +152,7 @@
   left: calc(45%);
 }
 .word10::after {
-  content: url(./128.png);
+  content: url(./serdechko.png);
   position: relative;
   top: 25px;
   left: 35px;
